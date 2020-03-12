@@ -3,8 +3,8 @@
 ; Author:		Maria Gunning
 ; Date:			January 21, 2020
 ; Purpose:		Explore the data segment and its features
-;			Code variables.
-;			Set and display variable values.
+;				Code variables.
+;				Set and display variable values.
 
 ; <DATA SEGMENT>
 dseg	segment public 'DATA'

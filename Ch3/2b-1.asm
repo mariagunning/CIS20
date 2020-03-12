@@ -71,8 +71,8 @@ START	proc	far				; set up return
 	int	21h			; send to DOS
 
 	mov 	dl, LF			; line feed
-	mov	ah, 02h			; display a char command
-	int	21h			; send to DOS
+	mov	ah, 02h			    ; display a char command
+	int	21h			        ; send to DOS
 	
 	; display output prompt
 	lea 	dx, str_output		; load output prompt 
